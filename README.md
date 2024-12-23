@@ -77,14 +77,3 @@ InfinityFree adalah pilihan yang baik untuk memulai, terutama untuk aplikasi web
 6. **Aktifkan SSL/TLS:**
    - Amankan koneksi antara server dan browser pengguna dengan sertifikat SSL/TLS.
 
-## Tips Konfigurasi Server
-
-InfinityFree hanya memungkinkan kustomisasi server terbatas. Anda dapat menggunakan:
-
-1. **`.htaccess`:**
-   - Konfigurasikan redirect, halaman error kustom, dan tingkatkan keamanan.
-
-2. **`php.ini`:**
-   - Ubah pengaturan PHP jika diizinkan oleh lingkungan hosting.
-
-Dengan mengikuti langkah-langkah dan praktik ini, Anda dapat dengan sukses meng-host dan mengelola aplikasi web yang aman di InfinityFree.
