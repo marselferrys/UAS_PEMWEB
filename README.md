@@ -77,3 +77,29 @@ InfinityFree adalah pilihan yang baik untuk memulai, terutama untuk aplikasi web
 6. **Aktifkan SSL/TLS:**
    - Amankan koneksi antara server dan browser pengguna dengan sertifikat SSL/TLS.
 
+# Bagian-Bagian Website
+
+## Form Daftar
+![Form Daftar](image/form_daftar.png)
+
+## Form Login
+![Form Login](image/form_login.png)
+
+## Halaman User
+![Halaman User](image/hal_user.png)
+
+## Halaman Admin
+![Halaman Admin](image/hal_admin.png)
+
+## Form Tambah Data
+![Form Tambah Data](image/form_tambah_data.png)
+
+## Form Edit Data
+![Form Edit Data](image/form_edit_data.png)
+
+## Form Detail
+![Form Detail](image/form_detail.png)
+
+## Tombol Hapus Data
+![Hapus Data](image/tombol_hapus.png)
+
