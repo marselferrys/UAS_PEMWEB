@@ -1,3 +1,8 @@
+Nama: Marchel Ferry Timoteus S
+NIM: 121140195
+
+Link web: https://marchel-121140195-pwb.great-site.net/
+
 # Hosting Aplikasi Web di InfinityFree
 
 ## Langkah-langkah untuk Meng-host Aplikasi Web:
