@@ -4,6 +4,14 @@ NIM: 121140195
 
 Link web: https://marchel-121140195-pwb.great-site.net/
 
+Admin account:
+email: marchel.121140195@student.iterac.a.cid
+pass: 1234
+
+User accout:
+email: marselferry@gmail.com
+pass: 123
+
 # Hosting Aplikasi Web di InfinityFree
 
 ## Langkah-langkah untuk Meng-host Aplikasi Web:
