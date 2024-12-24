@@ -2,7 +2,7 @@ Nama: Marchel Ferry Timoteus S
 
 NIM: 121140195
 
-Link web: marchel-121140195-pwb.great-site.net/
+Link web: [marchel-121140195-pwb.great-site.net/]
 
 Admin account:
 
