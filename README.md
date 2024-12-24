@@ -4,8 +4,6 @@ NIM: 121140195
 
 Link web: https://marchel-121140195-pwb.great-site.net/
 
-Alternative link: http://marchel-121140195-pwb.great-site.net/
-
 Admin account:
 
 email: marchel.121140195@student.iterac.a.cid
