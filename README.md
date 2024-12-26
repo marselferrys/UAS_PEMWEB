@@ -28,7 +28,7 @@ pass: 123
    - Setelah akun Anda siap, buat database MySQL untuk menyimpan data aplikasi Anda. InfinityFree menyediakan layanan database MySQL gratis.
 
 3. **Unggah File Aplikasi**
-   - Gunakan FTP client seperti [FileZilla](https://filezilla-project.org/) atau pengelola file yang disediakan oleh InfinityFree untuk mengunggah file aplikasi Anda ke direktori `public_html`.
+   - Gunakan FTP client seperti [FileZilla](https://filezilla-project.org/) atau pengelola file yang disediakan oleh InfinityFree untuk mengunggah file aplikasi Anda ke direktori `htdocs`.
 
 4. **Konfigurasi Aplikasi**
    - Sesuaikan konfigurasi aplikasi Anda dengan lingkungan hosting. Ini termasuk mengatur koneksi database, URL, dan pengaturan lainnya yang sesuai dengan server.
@@ -44,14 +44,6 @@ InfinityFree adalah pilihan yang baik untuk memulai, terutama untuk aplikasi web
 - **Fitur Terbatas:** Tidak sebanyak fitur yang ditawarkan penyedia hosting berbayar.
 - **Stabilitas:** Berpotensi mengalami downtime atau penurunan performa.
 
-### Alternatif untuk Aplikasi yang Berkembang
-
-1. **Hostinger**
-   - Paket hosting terjangkau dengan fitur yang cukup lengkap.
-2. **Bluehost**
-   - Populer untuk hosting WordPress dengan reputasi yang andal.
-3. **A2 Hosting**
-   - Dikenal karena kecepatan dan kinerja yang baik.
 
 ### Memilih Penyedia Hosting:
 - **Anggaran:** Berapa banyak yang ingin Anda keluarkan?
@@ -104,3 +96,46 @@ InfinityFree adalah pilihan yang baik untuk memulai, terutama untuk aplikasi web
 ## Tombol Hapus Data
 ![Hapus Data](image/tombol_hapus.png)
 
+# Langkah-Langkah Membuat Database dan Tabel di phpMyAdmin dan Laragon
+
+## Masuk ke phpMyAdmin
+1. Aktifkan laragon dan tekan tombol database untuk akses URL phpMyAdmin (contoh: `http://localhost/phpmyadmin`).
+
+## Membuat Database Baru
+1. Klik tab **Databases**.
+2. Pada kolom **Database name**, masukkan nama database: `students`.
+3. Pilih **Collation** (contoh: `utf8_general_ci`) agar mendukung berbagai karakter.
+4. Klik tombol **Create**.
+
+## Membuat Tabel `student_info`
+1. Klik database `students` di sidebar kiri.
+2. Klik tab **SQL** untuk menjalankan query SQL.
+3. Masukkan query berikut untuk membuat tabel `student_info`:
+   ```sql
+   CREATE TABLE `student_info` (
+     `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+     `name` VARCHAR(100) NOT NULL,
+     `nim` VARCHAR(20) NOT NULL,
+     `prodi` VARCHAR(50) NOT NULL,
+     `gender` ENUM('Laki-laki', 'Perempuan') NOT NULL,
+     `email` VARCHAR(100) NOT NULL,
+     `phone` VARCHAR(20) NOT NULL,
+     `interest` VARCHAR(100) NOT NULL,
+     `address` TEXT
+   );
+   ``` 
+4. Klik Go untuk mengeksekusi query.
+
+## Membuat Tabel `users`
+1. Masukkan query berikut di tab SQL untuk membuat tabel `users`:
+```
+CREATE TABLE `users` (
+  `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `name` VARCHAR(100) NOT NULL,
+  `email` VARCHAR(100) NOT NULL,
+  `password` VARCHAR(255) NOT NULL,
+  `user_type` ENUM('admin', 'user') NOT NULL,
+  `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+```
+2. Klik Go untuk mengeksekusi query.
