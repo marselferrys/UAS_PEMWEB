@@ -1,12 +1,12 @@
 document.getElementById('studentForm').addEventListener('submit', function (event) {
-    // Prevent form submission if validation fails
+    // mencegah submit form jika gagal
     if (!validateForm()) {
         event.preventDefault();
     }
 });
 
 function validateForm() {
-    // Retrieve form values
+    // Mengambil input dari form
     const name = document.getElementById('name').value.trim();
     const nim = document.getElementById('nim').value.trim();
     const prodi = document.getElementById('prodi').value;
@@ -17,20 +17,20 @@ function validateForm() {
     const address = document.getElementById('address').value.trim();
     const pimage = document.getElementById('pimage').value;
 
-    // Check if fields are empty
+    // mengecek input kosong 
     if (!name || !nim || !prodi || !gender || !email || !phone || !interest || !address) {
         alert('Semua field wajib diisi!');
         return false;
     }
 
-    // Validate email format
+    // mengecek email format
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailPattern.test(email)) {
         alert('Format email tidak valid!');
         return false;
     }
 
-     // Validate nim
+     // mengecek nim
      const nimPattern = /^[0-9]+$/;
      if (!nimPattern.test(nim) ) {
          alert('NIM hanya boleh mengandung angka!');
@@ -46,7 +46,7 @@ function validateForm() {
         return false;
     }
 
-    // Validate file upload
+    // validasi file upload
     if (pimage) {
         const allowedExtensions = /(\.jpg|\.jpeg)$/i;
         if (!allowedExtensions.test(pimage)) {
