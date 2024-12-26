@@ -36,7 +36,6 @@ if ($_FILES['pimage']['type'] != "image/jpeg") {
 echo "<p>Profile image must be uploaded in JPEG format.</p>";
 } else {
  
-//$name = $_FILES['classnotes']['name'];
 $filename=$nim.".jpg";
  
 unlink(FILEREPOSITORY.$filename);
