@@ -55,7 +55,6 @@ if (isset($_POST['submit'])) {
         <input type="password" name="cpassword" placeholder="Konfirmasi Password Anda" required class="box">
         <select name="user_type" class="box">
             <option value="user">User</option>
-            <option value="admin">Admin</option>
         </select>
         <label class="form-check">
             <input type="checkbox" class="form-check-input" name="terms_of_service" required>
