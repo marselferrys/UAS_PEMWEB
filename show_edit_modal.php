@@ -60,7 +60,7 @@ value="<?php echo $erow['nim']; ?>">
             <option value="Teknik Pertambangan" <?php if ($erow['prodi'] == 'Teknik Pertambangan') echo 'selected'; ?>>Program Studi Teknik Pertambangan</option>
             <option value="Teknik Material" <?php if ($erow['prodi'] == 'Teknik Material') echo 'selected'; ?>>Program Studi Teknik Material</option>
             <option value="Teknik Telekomunikasi" <?php if ($erow['prodi'] == 'Teknik Telekomunikasi') echo 'selected'; ?>>Program Studi Teknik Telekomunikasi</option>
-            <option value="Rekayasa Kehutanan" <?php if ($erow['prodi'] == 'Rekayasa Kehutanan') echo 'selected'; ?>>Rekayasa Kehutanan</option>
+            <option value="Rekayasa Kehutanan" <?php if ($erow['prodi'] == 'Rekayasa Kehutanan') echo 'selected'; ?>>Program Studi Rekayasa Kehutanan</option>
             <option value="Teknik Biomedik" <?php if ($erow['prodi'] == 'Teknik Biomedik') echo 'selected'; ?>>Program Studi Teknik Biomedik</option>
             <option value="Rekayasa Kosmetik" <?php if ($erow['prodi'] == 'Rekayasa Kosmetik') echo 'selected'; ?>>Program Studi Rekayasa Kosmetik</option>
             <option value="Rekayasa Minyak dan Gas" <?php if ($erow['prodi'] == 'Rekayasa Minyak dan Gas') echo 'selected'; ?>>Program Studi Rekayasa Minyak dan Gas</option>

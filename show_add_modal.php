@@ -43,6 +43,21 @@
                                     <option value="Teknik Mesin">Teknik Mesin</option>
                                     <option value="Teknik Industri">Teknik Industri</option>
                                     <option value="Teknik Kimia">Teknik Kimia</option>
+                                    <option value="Teknik Elektro">Program Studi Teknik Elektro</option>
+                                    <option value="Teknik Kimia">Program Studi Teknik Kimia</option>
+                                    <option value="Teknik Fisika">Program Studi Teknik Fisika</option>
+                                    <option value="Teknik Biosistem">Program Studi Teknik Biosistem</option>
+                                    <option value="Teknologi Industri Pertanian">Program Studi Teknologi Industri Pertanian</option>
+                                    <option value="Teknologi Pangan">Program Studi Teknologi Pangan</option>
+                                    <option value="Teknik Sistem Energi">Program Studi Teknik Sistem Energi</option>
+                                    <option value="Teknik Pertambangan">Program Studi Teknik Pertambangan</option>
+                                    <option value="Teknik Material">Program Studi Teknik Material</option>
+                                    <option value="Teknik Telekomunikasi">Program Studi Teknik Telekomunikasi</option>
+                                    <option value="Rekayasa Kehutanan">Program Studi Rekayasa Kehutanan</option>
+                                    <option value="Teknik Biomedik">Program Studi Teknik Biomedik</option>
+                                    <option value="Rekayasa Kosmetik">Program Studi Rekayasa Kosmetik</option>
+                                    <option value="Rekayasa Minyak dan Gas">Program Studi Rekayasa Minyak dan Gas</option>
+                                    <option value="Rekayasa Instrumentasi dan Automasi">Program Studi Rekayasa Instrumentasi dan Automasi</option>
                                 </select>
                             </div>
                         </div>
