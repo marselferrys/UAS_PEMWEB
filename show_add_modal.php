@@ -36,13 +36,13 @@
                             <div class="col-lg-8">
                                 <select name="prodi" class="form-control" required>
                                     <option value="" disabled selected>Pilih Program Studi</option>
-                                    <option value="Teknik Elektro">Teknik Elektro</option>
-                                    <option value="Teknik Geofisika">Teknik Geofisika</option>
-                                    <option value="Teknik Informatika">Teknik Informatika</option>
-                                    <option value="Teknik Geologi">Teknik Geologi</option>
-                                    <option value="Teknik Mesin">Teknik Mesin</option>
-                                    <option value="Teknik Industri">Teknik Industri</option>
-                                    <option value="Teknik Kimia">Teknik Kimia</option>
+                                    <option value="Teknik Elektro">Program Studi Teknik Elektro</option>
+                                    <option value="Teknik Geofisika">Program Studi Teknik Geofisika</option>
+                                    <option value="Teknik Informatika">Program Studi Teknik Informatika</option>
+                                    <option value="Teknik Geologi">Program Studi Teknik Geologi</option>
+                                    <option value="Teknik Mesin">Program Studi Teknik Mesin</option>
+                                    <option value="Teknik Industri">Program Studi Teknik Industri</option>
+                                    <option value="Teknik Kimia">Program Studi Teknik Kimia</option>
                                     <option value="Teknik Elektro">Program Studi Teknik Elektro</option>
                                     <option value="Teknik Kimia">Program Studi Teknik Kimia</option>
                                     <option value="Teknik Fisika">Program Studi Teknik Fisika</option>
