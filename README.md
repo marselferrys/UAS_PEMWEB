@@ -25,13 +25,13 @@ pass: 123
    - Kunjungi [InfinityFree](https://www.infinityfree.net/) dan daftar untuk akun gratis. Isi formulir pendaftaran dengan data yang valid.
 
 2. **Buat Database**
-   - Setelah akun Anda siap, buat database MySQL untuk menyimpan data aplikasi Anda. InfinityFree menyediakan layanan database MySQL gratis.
+   - Setelah akun siap, buat database MySQL untuk menyimpan data aplikasi. InfinityFree menyediakan layanan database MySQL gratis.
 
 3. **Unggah File Aplikasi**
-   - Gunakan FTP client seperti [FileZilla](https://filezilla-project.org/) atau pengelola file yang disediakan oleh InfinityFree untuk mengunggah file aplikasi Anda ke direktori `htdocs`.
+   - Hapus file yang tersedia di direktori  `htdocs` dan unggah file aplikasi anda ke direktori. 
 
 4. **Konfigurasi Aplikasi**
-   - Sesuaikan konfigurasi aplikasi Anda dengan lingkungan hosting. Ini termasuk mengatur koneksi database, URL, dan pengaturan lainnya yang sesuai dengan server.
+   - Sesuaikan konfigurasi aplikasi anda dengan lingkungan hosting. Ini termasuk mengatur koneksi database, URL, dan pengaturan lainnya yang sesuai dengan server.
 
 5. **Akses Aplikasi**
    - Setelah file diunggah dan konfigurasi selesai, akses aplikasi Anda menggunakan URL yang diberikan oleh InfinityFree.
